@@ -3,5 +3,7 @@ I chose the second option for this project, which allows for users to input a co
 
 **Assumptions:** 
 •	I assumed that the three-letter country code would always refer to one country no matter the capitalization, so I converted the input string to all uppercase letters to match the JSON destination formatting. 
+
 •	I assumed all drivers would take the most direct route to a destination. For instance, a driver going to Guatemala would not need to go through Belize to reach the destination.  
+
 •	Since the input form and list of results was relatively little information without a lot of formatting, I decided to include them within one React component. If this project was expanded to include more data or required better formatting such as a table, it would be beneficial to break them apart into separate components. 
